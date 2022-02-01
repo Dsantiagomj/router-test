@@ -7,7 +7,7 @@ function Logout() {
 
   auth.logout();
 
-  return <Navigate to="/login" state={{ from: location }} replace />;
+  return <Navigate to="/login" state={{ from: "/" }} replace />;
 }
 
 export default Logout;
