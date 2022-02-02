@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "./Layout";
-import Home from "./Home";
-import About from "./About";
-import Profile from "./Profile";
-import NotFound from "./NotFound";
-import Login from "./Login";
-import Logout from "./Logout";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import Profile from "../pages/Profile";
+import NotFound from "../pages/NotFound";
+import Login from "../pages/Login";
+import Logout from "../utils/Logout";
 import ProtectedRoute from "./ProtectedRoute";
 
 const Router = () => {

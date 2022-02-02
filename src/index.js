@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import CssBaseline from "@mui/material/CssBaseline";
 import { BrowserRouter } from "react-router-dom";
 
-import { AuthProvider } from "./AuthContext";
+import { AuthProvider } from "./utils/AuthContext";
 
 ReactDOM.render(
   <React.StrictMode>
